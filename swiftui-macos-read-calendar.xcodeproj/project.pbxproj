@@ -20,6 +20,7 @@
 		799E74D92AA63FD200BD0DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		799E74DC2AA63FD200BD0DBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		799E74DE2AA63FD200BD0DBF /* swiftui_macos_read_calendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftui_macos_read_calendar.entitlements; sourceTree = "<group>"; };
+		799E74E42AA6435E00BD0DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		799E74D42AA63FD000BD0DBF /* swiftui-macos-read-calendar */ = {
 			isa = PBXGroup;
 			children = (
+				799E74E42AA6435E00BD0DBF /* Info.plist */,
 				799E74D52AA63FD000BD0DBF /* swiftui_macos_read_calendarApp.swift */,
 				799E74D72AA63FD000BD0DBF /* ContentView.swift */,
 				799E74D92AA63FD200BD0DBF /* Assets.xcassets */,
@@ -274,6 +276,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swiftui-macos-read-calendar/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +304,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swiftui-macos-read-calendar/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
